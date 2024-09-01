@@ -8,7 +8,8 @@ const stripe = new Stripe('sk_test_51PuAhNDmeWv6Hm2mVPkyDmrOzJ2mGn12wWnrAoqxr0z2
 //placing user order frm frontend
 export const placeOrderCtrl=async (req,res)=>{
    
-    const frontend_url=`http://localhost:5174`
+    // const frontend_url=`http://localhost:5174`
+    const frontend_url="https://food-delivery-website-frontend-8b1k.onrender.com/"
 
    try {
       const newOrder= new OrderModel({
