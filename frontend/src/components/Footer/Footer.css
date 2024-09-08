@@ -16,6 +16,10 @@
     grid-template-columns: 2fr 1fr 1fr;
     gap: 80px;
 }
+.footer-content-left .footer-logo{
+    width: 150px;
+    background-color: white;
+}
 
 .footer-content-left,
 .footer-content-right,
@@ -26,7 +30,6 @@
     gap: 20px;
 }
 
-.footer-content-left li,
 .footer-content-right li,
 .footer-content-center li {
     list-style: none;
@@ -35,6 +38,9 @@
 }
 .footer-content-right h2{
     color: white;
+}
+.footer-social-icons{
+  display: flex;
 }
 .footer-social-icons img{
     width: 40px;

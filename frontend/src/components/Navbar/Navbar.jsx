@@ -19,6 +19,7 @@ const Navbar = ({ setShowLogin }) => {
     <div className="navbar">
       <Link to="/">
         <img src={assets.logo} alt="" className="logo" />
+        {/* <img src='' alt="" className="logo" /> */}
       </Link>
       <ul className="navbar-menu">
         <Link
@@ -51,7 +52,6 @@ const Navbar = ({ setShowLogin }) => {
         </a>
       </ul>
       <div className="navbar-right">
-        <img src={assets.search_icon} alt="" />
         <div className="navbar-search-icon">
           <Link to="/cart">
             <img src={assets.basket_icon} alt="" />
@@ -76,6 +76,7 @@ const Navbar = ({ setShowLogin }) => {
             </ul>
           </div>
         )}
+        <img className="menu-bar" src={assets.search_icon} alt="" />
       </div>
     </div>
   );
